@@ -1,0 +1,35 @@
+body{
+    background-color: beige;
+}
+
+.box1{
+    background-color: darkgoldenrod;
+    height: 200px;
+}
+.box2{
+    background-color: hotpink;
+    height: 200px;
+}
+.box3{
+    background-color: darkorange;
+    height: 200px;
+}
+.box4{
+    background-color: yellowgreen;
+    height: 200px;
+}
+@media (min-width:768px) {
+    .box2{
+        float: left;
+        width: 70%;
+    }
+    .box3{
+        float: left;
+        width: 30%;
+    }
+    .boxA::after{
+        content: "";
+        display: block;
+        clear: both;
+    }   
+}
