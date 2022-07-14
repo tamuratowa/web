@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(238, 241, 238);
+    font-size: 0.8em;
+    color: rgb(2, 3, 2);
+}
+.wrap{
+    width:50%;
+    background-color: rgb(241, 248, 244);
+    margin:0 auto;
+    padding: 20px;
+}
+h2{
+    margin-top: 20px;
+}
+.works{
+    background-color: rgb(97, 154, 131);
+    color: rgb(3, 3, 3);
+    margin-top:20px;
+    margin-left:30px;
+    margin-right:40px;
+    margin-bottom:15px;
+
+    padding-top:10px;
+    padding-left:5px;
+    padding-right:8px;
+    padding-bottom:12px;
+
+    border-style: solid;
+    border-width:15px;
+    border-color: rgb(56, 111, 87);
+}
+.works img{
+    width: 150px;
+}
+.photoBox{
+    display:flex;
+}
