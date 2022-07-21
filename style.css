@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(173, 228, 228);
+    color: darkslategrey;
+    font-size: 150%;
+}
+a{
+    color: blueviolet;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(148, 101, 192);
+    background-color: rgb(38, 83, 83);
+}
+ul,li{
+    list-style: none;
+}
